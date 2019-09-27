@@ -2,7 +2,8 @@ from xbmcswift2 import Plugin, xbmcgui
 from resources.lib import mainaddon
 
 plugin = Plugin()
-URL = "http://thedollop.libsyn.com/"
+url1 = "http://thedollop.libsyn.com/"
+url2 = "https://thedollop.libsyn.com/webpage/page/1/size/10000"
 @plugin.route('/')
 def main_menu():
     items = [
@@ -19,17 +20,15 @@ def main_menu():
 
 @plugin.route('/episodes1/')
 def episodes1():
-    soup = mainaddon.get_soup(URL)
-    playable_podcast1 = mainaddon.get_playable_podcast1(soup)
+    soup1 = mainaddon.get_soup1(url1)
+    playable_podcast1 = mainaddon.get_playable_podcast1(soup1)
     items = mainaddon.compile_playable_podcast1(playable_podcast1)
     return items
-
 @plugin.route('/episodes/')
 def episodes():
-    soup = mainaddon.get_soup(URL)
-    playable_podcast = mainaddon.get_playable_podcast(soup)
+    soup2 = mainaddon.get_soup2(url2)
+    playable_podcast = mainaddon.get_playable_podcast(soup2)
     items = mainaddon.compile_playable_podcast(playable_podcast)
     return items
-
 if __name__ == '__main__':
     plugin.run()

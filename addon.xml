@@ -14,7 +14,7 @@
     <platform>all</platform>
     <language>en_us</language>
     <summary lang="en">Dollop Podcast</summary>
-    <description lang="en">The Dollop Podcast - history buff and comedian Dave Anthony was considering starting a new podcast in 2014.  His idea was to write up an unknown story from American history and read it to a different comedian each week. Having not heard of the story before, Dave hoped the comedian's reaction would be hilarious.  He gave it a go and his first guest was comedian Gareth Reynolds. They immediately clicked and fans flooded social media telling Dave to never change the co-host. And he didn't.</description>
+    <description lang="en">The Dollop Podcast - history buff and comedian Dave Anthony was considering starting a new podcast in 2014. His idea was to write up an unknown story from American history and read it to a different comedian each week. Having not heard of the story before, Dave hoped the comedian's reaction would be hilarious.  He gave it a go and his first guest was comedian Gareth Reynolds. They immediately clicked and fans flooded social media telling Dave to never change the co-host. And he didn't.</description>
     <license>The MIT License (MIT)</license>
     <forum></forum>
     <email>leopheard@gmail.com</email>
@@ -23,9 +23,9 @@
         	<assets>
 			<icon>resources/media/icon.jpg</icon>
 			<fanart>resources/media/fanart.jpg</fanart>
-			<screenshot>resources/media/icon.jpg</screenshot>
-			<screenshot>resources/media/icon.jpg</screenshot>
-			<screenshot>resources/media/icon.jpg</screenshot>
+			<screenshot>resources/media/1.jpg</screenshot>
+			<screenshot>resources/media/2.jpg</screenshot>
+			<screenshot>resources/media/3.jpg</screenshot>
 		</assets>
   </extension>
 </addon>
