@@ -23,7 +23,7 @@ def get_playable_podcast(soup):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': “http://static1.squarespace.com/static/5cae25d58dfc8c9bbc638a9b/t/5d1237d497f79e0001145c49/1561475041378/The+Dollop+2018+logo+nameless.png”
+                'thumbnail': "http://static1.squarespace.com/static/5cae25d58dfc8c9bbc638a9b/t/5d1237d497f79e0001145c49/1561475041378/The+Dollop+2018+logo+nameless.png",
         }
         subjects.append(item)
     return subjects
@@ -52,7 +52,7 @@ def get_playable_podcast1(soup):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': “http://static1.squarespace.com/static/5cae25d58dfc8c9bbc638a9b/t/5d1237d497f79e0001145c49/1561475041378/The+Dollop+2018+logo+nameless.png”,
+                'thumbnail': "http://static1.squarespace.com/static/5cae25d58dfc8c9bbc638a9b/t/5d1237d497f79e0001145c49/1561475041378/The+Dollop+2018+logo+nameless.png",
         }
         subjects.append(item)
     return subjects
