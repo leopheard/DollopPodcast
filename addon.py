@@ -10,11 +10,11 @@ def main_menu():
       {
             'label': plugin.get_string(30001), 
             'path': plugin.url_for('episodes1'),
-            'thumbnail': "http://static1.squarespace.com/static/5cae25d58dfc8c9bbc638a9b/t/5d1237d497f79e0001145c49/1561475041378/The+Dollop+2018+logo+nameless.png"},
+            'thumbnail': "https://i1.sndcdn.com/avatars-000114476892-gzl586-large.jpg"},
         {
             'label': plugin.get_string(30000), 
             'path': plugin.url_for('episodes'),
-            'thumbnail': "http://static1.squarespace.com/static/5cae25d58dfc8c9bbc638a9b/t/5d1237d497f79e0001145c49/1561475041378/The+Dollop+2018+logo+nameless.png"},
+            'thumbnail': "https://i1.sndcdn.com/avatars-000114476892-gzl586-large.jpg"},
    ]
     return items
 
