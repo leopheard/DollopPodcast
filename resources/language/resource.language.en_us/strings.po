@@ -19,11 +19,11 @@ msgid "Livestream"
 msgstr ""
 
 msgctxt "#30000"
-msgid "All episodes"
+msgid "All Dollop episodes"
 msgstr ""
 
 msgctxt "#30001"
-msgid "Latest episodes"
+msgid "Latest Dollop episodes"
 msgstr ""
 
 # empty string with id 32003
