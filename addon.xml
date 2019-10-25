@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.audio.dolloppodcast" name="The Dollop" version="1.1.0" provider-name="leopheard">
+<addon id="plugin.audio.dolloppodcast" name="The Dollop" version="1.2.0" provider-name="leopheard">
   <requires>
     <import addon="xbmc.python" version="2.26.0"/>
     <import addon="script.module.xbmcswift2" version="2.4.0"/>
@@ -14,7 +14,7 @@
     <platform>all</platform>
     <language>en_us</language>
     <summary lang="en">Dollop Podcast</summary>
-    <description lang="en">The Dollop Podcast - history buff and comedian Dave Anthony was considering starting a new podcast in 2014. His idea was to write up an unknown story from American history and read it to a different comedian each week. Having not heard of the story before, Dave hoped the comedian's reaction would be hilarious.  He gave it a go and his first guest was comedian Gareth Reynolds. They immediately clicked and fans flooded social media telling Dave to never change the co-host. And he didn't.</description>
+    <description lang="en">The Dollop Podcast (US / UK)- history buff and comedian Dave Anthony was considering starting a new podcast in 2014. His idea was to write up an unknown story from American history and read it to a different comedian each week. Having not heard of the story before, Dave hoped the comedian's reaction would be hilarious.  He gave it a go and his first guest was comedian Gareth Reynolds. They immediately clicked and fans flooded social media telling Dave to never change the co-host. And he didn't.</description>
     <license>The MIT License (MIT)</license>
     <forum></forum>
     <email>leopheard@gmail.com</email>

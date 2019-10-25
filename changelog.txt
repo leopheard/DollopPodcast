@@ -4,3 +4,7 @@ __Version 1.0.0__
 __Version 1.1.0__
 1. Update labels
 2. Changed parsing to pull each episode image rather than a generic one
+
+__Version 1.5.0__
+1. Included UK & England Dollop
+2. Added fanart icon for UK
